@@ -1,0 +1,19 @@
+{
+  "name": "{{ cookiecutter.repo_name }}",
+  "version": "0.0.0",
+  "description": "{{ cookiecutter.description }}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "{{ cookiecutter.github_url }}"
+  },
+  "author": "{{ cookiecutter.author }}",
+  "license": "ISC",
+  "bugs": {
+    "url": "{{ cookiecutter.github_url }}/issues"
+  },
+  "homepage": "{{ cookiecutter.project_url }}"
+}

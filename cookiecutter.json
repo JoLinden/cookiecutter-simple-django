@@ -5,5 +5,7 @@
     "email": "Your email",
     "description": "A short description of the project.",
     "year": "Current year",
-    "with_documentation": "yes"
+    "with_documentation": "yes",
+    "project_url": "Project URL",
+    "repo_github": "GitHub URL"
 }
