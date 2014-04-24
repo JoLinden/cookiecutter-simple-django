@@ -1,1 +1,3 @@
-{% if cookiecutter.with_documentation == 'yes' %}Sphinx{% endif %}
+-r testing.txt
+
+django-debug-toolbar

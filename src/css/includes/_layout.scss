@@ -1,0 +1,87 @@
+%inline-block{
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+
+/* Sections */
+.page-section{
+	position: relative;
+	margin-top: -3.5em;
+	padding: 3.5em 0 7em 0;
+	border-top-left-radius: 3.5em;
+	text-align: center;
+}
+
+.page-section-content{
+	@extend %inline-block;
+	position: relative;
+	width: 75em;
+	max-width: 95%;
+	z-index: 2;
+	vertical-align: top;
+}
+
+/* Columns */
+.layout-column{
+	@extend %inline-block;
+	padding: 0 0.7em;
+	width: 100%;
+	vertical-align: top;
+}
+
+.layout-column-slim{
+	padding: 0;
+}
+
+.layout-column-stacked{
+	margin-bottom: 2em;
+}
+
+.layout-four-fifths{
+	width: 80%;
+}
+
+.layout-three-fourths{
+	width: 75%;
+}
+
+.layout-two-thirds{
+	width: 66.7%;
+}
+
+.layout-three-fifths{
+	width: 60%;
+}
+
+.layout-one-half{
+	width: 50%;
+}
+
+.layout-two-fifths{
+	width: 40%;
+}
+
+.layout-one-third{
+	width: 33.3%;
+}
+
+.layout-one-fourth{
+	width: 25%;
+}
+
+.layout-one-fifth{
+	width: 20%;
+}
+
+.layout-auto{
+	width: auto;
+}
+
+.layout-relative{
+	position: relative;
+}
+
+.layout-vertical-center{
+	vertical-align: middle;
+}

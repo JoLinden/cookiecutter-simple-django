@@ -1,0 +1,13 @@
+server {
+  listen 80;
+  server_name localhost;
+
+  location / {
+    uwsgi_pass unix:///tmp/main.sock;
+    include uwsgi_params;
+  }
+
+  location /static/ {
+    alias /var/www/{{ cookiecutter.repo_name }}/assets/;
+  }
+}

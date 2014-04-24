@@ -2,3 +2,9 @@ django
 django-model-utils
 psycopg2
 South
+Pillow
+
+django-grappelli
+django-mptt
+
+git+git://github.com/JoLinden/django-filebrowser-tinymce4.git
